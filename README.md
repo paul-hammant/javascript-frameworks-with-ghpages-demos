@@ -32,13 +32,15 @@ rely on a build to use it, whereas the first few years of AngularJS didn't.
 ## To update the data:
 
 ```
+# Install sponge, and ImageMagick for your platform
 pip3 install selenium
 cd docs
 rm *.json
 rm -rf results/
 python3 search_gh_for_frameworks.py your-github-id # and your password when prompted
 sort search_results.json | sponge search_results.json
-python3 subset-to-framework-using-ghpages.py # kiss goodbye to a day or so
+rm *-gh-pages.txt
+python3 subset-to-framework-using-ghpages.py # kiss goodbye to 12 hours or so
 # Make thumbnails using ImageMagick
 for f in `find . -name "*.png" | sed '/\.thumb\./d'`; do convert $f -resize 10% ${f/.png/.thumb.png}; done
 # delete non-thumbnails
