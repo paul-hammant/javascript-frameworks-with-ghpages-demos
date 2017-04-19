@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body ng-app="MyApp" ng-controller="MyController">
+
+<div class="panel panel-default">
+    <div class="panel-body">
+    <p>This site lists of all repos that have GitHub-Pages deployments for the <script>document.write(window.location.hash.slice(1));</script> web framework.</p>
+    <p><a href="https://github.com/paul-hammant/javascript-frameworks-with-ghpages-demos">Link to the project that collected the data</a></p>
+        <span><label style="padding-right: 8px">Search: </label><input ng-model="searchText"/> - matching {{(repos|filter:searchText).length}} repos</span><br/>
+        <table class="table table-striped">
+            <tr ng-repeat="repo in repos | filter:searchText | orderBy:['framework', '-stars']">
+                <td style="width: 128px">
+                    <a ng-href="http://{{repo.orgOrPerson}}.github.io/{{repo.repo}}">
+                        <img style="padding-right: 8px"
+                             src="results/{{repo.orgOrPerson}}/{{repo.repo}}.thumb.png"/>
+                    </a>
+                </td>
+                <td>
+                    <span>{{repo.framework}} - {{repo.stars}} stars - {{repo.orgOrPerson}}/{{repo.repo}}</span><br/>
+                    <span><strong>{{repo.desc}}</strong></span> <span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span><span ng-show="repo"></span><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>
