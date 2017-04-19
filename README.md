@@ -58,7 +58,7 @@ Site: [javascript-frameworks-with-ghpages-demos](https://paul-hammant.github.io/
 
 ## Contributions
 
-Pull-requests welcome
+Pull-requests welcome. Especially for the false positives/negatives and the framework version detection logic (in Selenium, once loaded).
 
 ## Notes
 
