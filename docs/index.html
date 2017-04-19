@@ -28,8 +28,8 @@
                     </a>
                 </td>
                 <td>
-                    <span>{{repo.framework}} - {{repo.stars}} stars - {{repo.orgOrPerson}}/{{repo.repo}}</span><br/>
-                    <span><strong>{{repo.desc}}</strong></span> <span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span><span ng-show="repo"></span><br/>
+                    <span>{{repo.framework}} - {{repo.stars}} stars - {{repo.orgOrPerson}}/{{repo.repo}}</span><span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span><span ng-show="repo.framework_version">Angular framework version: {{repo.framework_version}}</span><br/>
+                    <span><strong>{{repo.desc}}</strong></span>
                 </td>
             </tr>
         </table>
