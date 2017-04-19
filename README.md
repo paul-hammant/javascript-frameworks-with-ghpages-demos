@@ -1,24 +1,24 @@
 This is an attempt to list of **Github** repositories that have **build-less** gh-pages demos/samples/examples, for the
 JavaScript following MVC/MVVM frameworks:
 
-152 [AngularJS](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#AngularJS)
-83 [Vue](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Vue)
-81 [Ember](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Ember)
-59 [Backbone](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Backbone)
-58 [Ractive](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Ractive)
-53 [React](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#React)
-41 [Knockout](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Knockout)
-37 [Mithril](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Mithril)
-32 [Riot](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Riot)
-27 [Enyo](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Enyo)
-17 [Angular](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Angular)
-14 [Polymer](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Polymer)
-12 [Flight](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Flight)
-10 [Aurelia](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Aurelia)
-11 [Marko](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Marko)
-12 [Cycle](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Cycle)
-9 [Inferno](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Inferno)
-0 Svelte
+* 152 [AngularJS](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#AngularJS)
+* 83 [Vue](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Vue)
+* 81 [Ember](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Ember)
+* 59 [Backbone](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Backbone)
+* 58 [Ractive](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Ractive)
+* 53 [React](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#React)
+* 41 [Knockout](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Knockout)
+* 37 [Mithril](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Mithril)
+* 32 [Riot](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Riot)
+* 27 [Enyo](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Enyo)
+* 17 [Angular](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Angular)
+* 14 [Polymer](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Polymer)
+* 12 [Flight](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Flight)
+* 12 [Cycle](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Cycle)
+* 11 [Marko](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Marko)
+* 10 [Aurelia](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Aurelia)
+* 9 [Inferno](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Inferno)
+* 0 Svelte
 
 Buildless examples serve as good tools for learning (and comparing) such frameworks.  Some people (like me) greatly
 prefer self-contained/clonable/runnable examples to tutorials and reference docs.
