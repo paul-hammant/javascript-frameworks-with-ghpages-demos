@@ -1,4 +1,4 @@
-This is an attempt to list repositories that have **build-less** gh-pages demos/samples/examples, for the
+This is an attempt to list of **Github** repositories that have **build-less** gh-pages demos/samples/examples, for the
 JavaScript following MVC/MVVM frameworks:
 
 152 [AngularJS](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#AngularJS)
@@ -19,6 +19,15 @@ JavaScript following MVC/MVVM frameworks:
 12 [Cycle](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Cycle)
 9 [Inferno](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Inferno)
 0 Svelte
+
+Buildless examples serve as good tools for learning (and comparing) such frameworks.  Some people (like me) greatly
+prefer self-contained/clonable/runnable examples to tutorials and reference docs.
+
+JsFiddle, Codepen, Plunker [and alike](https://www.quora.com/What-are-some-alternatives-to-http-jsfiddle-net) are similar places to discover buildless examples.  So is StackOverflow, but the example code
+inlined isn't runnable, so is imperfect (unless there's a link to
+
+This page doesn't show true popularity of these frameworks - Newer technologies like Angular (successor to AngularJS) greatly
+rely on a build to use it, whereas the first few years of AngularJS didn't.
 
 ## To update the data:
 
