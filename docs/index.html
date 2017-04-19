@@ -15,7 +15,7 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-    <p>This site lists of all repos that have GitHub-Pages deployments for the <script>document.write(window.location.hash.slice(1));</script> web framework.</p>
+    <p>This site lists of all repos that have GitHub-Pages deployments for the <strong></strong><script>document.write(window.location.hash.slice(1));</script></strong> web framework.</p>
     <p>Github project page (with Python3 spider tech, and links to/ table of other JavaScript Microframeworks): <a href="https://github.com/paul-hammant/javascript-frameworks-with-ghpages-demos">here</a></p>
         <span><label style="padding-right: 8px">Search: </label><input ng-model="searchText"/> - matching {{(repos|filter:searchText).length}} repos</span><br/><br/>
         <table class="table table-striped">
@@ -27,7 +27,7 @@
                     </a>
                 </td>
                 <td>
-                    <span>{{repo.framework}} - {{repo.stars}} stars - {{repo.orgOrPerson}}/{{repo.repo}}</span> <span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span> <span ng-show="repo.framework_version">Angular framework version: {{repo.framework_version}}</span><br/>
+                    <span>Stars: {{repo.stars}}. Project:- <a ng-href="http://github.com/{{repo.orgOrPerson}}/{{repo.repo}}">{{repo.orgOrPerson}}/{{repo.repo}}</a></span> (site: click on pic). <span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span> <span ng-show="repo.framework_version">Angular framework version: {{repo.framework_version}}</span><br/>
                     <span><strong>{{repo.desc}}</strong></span>
                 </td>
             </tr>
