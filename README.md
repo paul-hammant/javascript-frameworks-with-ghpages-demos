@@ -50,11 +50,9 @@ git add .
 git commit -m "more"
 ```
 
-You should probably run the thing in VM as Chrome could have a zeroday vuln, that one of these could take advantage of.
+You should probably run these scripts in disposable VM as Chrome could have a zero-day vuln allowing a hacker to install software on your machine.
 
-For AngularJS and Angular - there is an attempt to
-
-Site: [javascript-frameworks-with-ghpages-demos](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/)
+For AngularJS and Angular - there is an attempt to detect the framework in the browser by looking for a known property `window.angular.version.full`.
 
 ## Contributions
 
