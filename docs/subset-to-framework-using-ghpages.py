@@ -19,8 +19,8 @@ if os.path.exists('not-these.txt'):
 else:
     not_these = []
 
-if os.path.exists('permban.csv'):
-    permaban = [line.rstrip('\n') for line in open('permban.csv')]
+if os.path.exists('permaban.csv'):
+    permaban = [line.rstrip('\n') for line in open('permaban.csv')]
 else:
     permaban = []
 
@@ -92,6 +92,7 @@ for result in results['res']:
 
     if repo is last_repo and org_or_person is last_org_person:
         continue
+        
     last_repo = repo
     last_org_person = org_or_person
 
@@ -100,13 +101,14 @@ for result in results['res']:
     else:
         url = "http://" + org_or_person + ".github.io/" + repo + "/index.html" # may do redirects
 
-    print("processing " + url)
+    print("[" + framework + "] processing " + url)
 
     results_dir = "results/" + org_or_person
 
     # to delete
     image_filename = results_dir + "/" + repo + '.png'
     if os.path.exists(image_filename):
+        print("  - results exist, not redoing")
         continue
 
     try:
@@ -119,9 +121,14 @@ for result in results['res']:
         browser.get(url)
         time.sleep(2)
 
-        matched = try_this()
-
+        src = browser.page_source
         current_url = browser.current_url
+
+        if "404" in src or "NOT FOUND" in src.upper():
+            print("  - 404")
+            matched = False
+        else:
+            matched = try_this()
 
         if not matched:
             browser.implicitly_wait(0)
@@ -139,13 +146,17 @@ for result in results['res']:
                     if matched:
                         result["inChildPage"] = True
                         break
+                        
 
     except (TimeoutException, UnexpectedAlertPresentException) as e:
+        print("  - timeout opening page - consider adding to permaban.txt")
         pass
 
     if not matched:
         open('not-these.txt', 'a').write(org_or_person + "/" + repo + "\n")
+        print("  - not a match, adding to not-these.txt")
     else:
         open(result['framework'] + '-gh-pages.txt', 'a').write(json.dumps(result) + ",\n")
+        print("  - match, adding to " + result['framework'] + '-gh-pages.txt')
 
 browser.quit()
