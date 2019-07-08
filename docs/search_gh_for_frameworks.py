@@ -53,9 +53,11 @@ search_for("Marko")
 search_for("Riot")
 search_for("Inferno")
 search_for("Ractive")
+search_for("Preact")
 search_for("Flight")
-search_for("Cycle")
+search_for("Cycle.Js")
 search_for("Enyo")
+search_for("Cyclow")
 
 
 

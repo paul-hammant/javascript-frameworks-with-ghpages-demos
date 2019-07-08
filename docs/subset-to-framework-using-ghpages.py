@@ -109,7 +109,11 @@ for result in results['res']:
     if os.path.exists(image_filename):
         continue
 
-    browser.get("http://www.this-page-intentionally-left-blank.org/")
+    try:
+        browser.get("https://blank.org/")
+    except (TimeoutException) as e:
+        pass
+        
     matched = False
     try:
         browser.get(url)
