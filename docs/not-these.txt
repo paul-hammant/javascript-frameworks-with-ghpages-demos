@@ -16587,3 +16587,9 @@ zouhir/preact-habitat
 zouhir/preact-phiber
 zouhir/preact-widget-scripts
 zouhir/preact-widgets-boilerplate
+Rusta/gatsby-starter-barebones-preact
+aweary/enzyme-adapter-preact
+aweary/preact-blaze
+aweary/preact-flow-example
+prateekbh/preact-timepicker
+tomwayson/esri-preact-pwa
