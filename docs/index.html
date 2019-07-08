@@ -21,13 +21,14 @@
         <table class="table table-striped">
             <tr ng-repeat="repo in repos | filter:searchText | orderBy:['framework', '-stars']">
                 <td style="width: 128px">
-                    <a ng-href="http://{{repo.orgOrPerson}}.github.io/{{repo.repo}}">
                         <img style="padding-right: 8px"
                              src="results/{{repo.orgOrPerson}}/{{repo.repo}}.thumb.png"/>
-                    </a>
                 </td>
                 <td>
-                    <span>Stars: {{repo.stars}}. Project:- <a ng-href="http://github.com/{{repo.orgOrPerson}}/{{repo.repo}}">{{repo.orgOrPerson}}/{{repo.repo}}</a></span> (site itself: click on pic). <span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span> <span ng-show="repo.framework_version">Angular framework version: {{repo.framework_version}}</span><br/>
+                    <span>Stars: {{repo.stars}}. GitHub Project:- <a ng-href="http://github.com/{{repo.orgOrPerson}}/{{repo.repo}}">{{repo.orgOrPerson}}/{{repo.repo}}</a>.</span> 
+					<span>Site itself: <a ng-href="http://{{repo.orgOrPerson}}.github.io/{{repo.repo}}">{{repo.orgOrPerson}}.github.io/{{repo.repo}}</a>.</span> 
+					<span ng-show="repo.inChildPage">(demos are in child pages, linked to from the main page)</span> 
+					<span ng-show="repo.framework_version">Angular framework version: {{repo.framework_version}}</span><br/>
                     <span><strong>{{repo.desc}}</strong></span>
                 </td>
             </tr>
