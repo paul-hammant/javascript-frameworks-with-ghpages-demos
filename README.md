@@ -3,7 +3,7 @@
 This is an attempt to list of **Github** repositories that have **build-less** Github-Pages demos/samples/examples. At least for the
 JavaScript following MVC/MVVM frameworks:
 
-* [AngularJS](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#AngularJS) - 109 examples
+* [AngularJS](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#AngularJS) (Angular 1) - 109 examples
 * [Vue](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Vue) - 92 examples
 * [Ember](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Ember) - 90 examples
 * [Backbone](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Backbone) - 60 examples
@@ -13,26 +13,27 @@ JavaScript following MVC/MVVM frameworks:
 * [Mithril](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Mithril) - 38 examples
 * [Riot](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Riot) -37 examples
 * [Enyo](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Enyo) -21 examples
-* [Angular](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Angular) (Angular v2 -v8) -11 examples
 * [Polymer](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Polymer) - 16 examples
-* [Flight](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Flight) - 7 examples
-* [Cycle](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Cycle) - 3 examples
-* [Marko](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Marko)- 7 examples
-* [Aurelia](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Aurelia) - 9 examples
 * [Inferno](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Inferno) - 15 examples
+* [Angular](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Angular) (Angular v2 -v8) -11 examples
+* [Aurelia](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Aurelia) - 9 examples
+* [Flight](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Flight) - 7 examples
+* [Marko](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Marko)- 7 examples
 * [Preact](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Preact) - 5 examples
+* [Cycle](https://paul-hammant.github.io/javascript-frameworks-with-ghpages-demos/#Cycle) - 3 examples
 * Svelte - no examples yet
 * Cyclow - no examples yet
 
 Buildless examples serve as good tools for learning (and comparing) such frameworks.  Some people (like me) greatly
-prefer self-contained/clonable/runnable examples to tutorials and reference docs.
+prefer self-contained/cloneable/runnable examples to tutorials and reference docs.
 
 JsFiddle, Codepen, Plunker [and alike](https://www.quora.com/What-are-some-alternatives-to-http-jsfiddle-net) are similar places to discover buildless examples.  So is StackOverflow, but the example code
 inlined isn't runnable, so is imperfect (unless there's a link to
 
-This page doesn't show true popularity of these frameworks - Newer technologies like Angular (successor to AngularJS) greatly
-rely on a build to use them, whereas the first few years of AngularJS (2009-11) didn't. Some technologies like Meteor cannot possibly
-be build-less, and therefore are not listed at all.
+This page doesn't show true popularity of these frameworks - Newer technologies like Angular 
+(successor to AngularJS) greatly rely on a build to use them, whereas the first few years of AngularJS 
+(2009-11) didn't. Some technologies like Meteor cannot possibly be build-less, and therefore are not 
+listed at all.
 
 # WTF is buildless?
 
