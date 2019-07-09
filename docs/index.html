@@ -16,7 +16,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
     <p>This site lists of all repos that have GitHub-Pages deployments for the <strong><script>document.write(window.location.hash.slice(1));</script></strong> web framework.</p>
-    <p>Github project page with <strong>links to other JavaScript Microframeworks</strong>(and Python3 spidering software): <a href="https://github.com/paul-hammant/javascript-frameworks-with-ghpages-demos">here</a></p>
+    <p>Github project page with <strong>links to other JavaScript Microframeworks</strong> (and Python3 spidering software): <a href="https://github.com/paul-hammant/javascript-frameworks-with-ghpages-demos">here</a></p>
         <span><label style="padding-right: 8px">Search: </label><input ng-model="searchText"/> - matching {{(repos|filter:searchText).length}} repos</span><br/><br/>
         <table class="table table-striped">
             <tr ng-repeat="repo in repos | filter:searchText | orderBy:['framework', '-stars']">
