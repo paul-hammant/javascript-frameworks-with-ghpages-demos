@@ -1,0 +1,5 @@
+{"framework": "Preact", "orgOrPerson": "GhatuDB", "repo": "preact-starter", "desc": "preact starter kit", "stars": 0},
+{"framework": "Preact", "orgOrPerson": "Jiaoweiquan", "repo": "preact-demo", "desc": "preact-demo", "stars": 0},
+{"framework": "Preact", "orgOrPerson": "apstemmer", "repo": "preact", "desc": "Parity frontend", "stars": 0},
+{"framework": "Preact", "orgOrPerson": "csbun", "repo": "preact-redux-ssr-example", "desc": "[Preact](https://preactjs.com/) Server-side Rendering with Redux Example", "stars": 28},
+{"framework": "Preact", "orgOrPerson": "stepquick", "repo": "preact-giphy", "desc": "Giphy Api w/ Preact", "stars": 2},

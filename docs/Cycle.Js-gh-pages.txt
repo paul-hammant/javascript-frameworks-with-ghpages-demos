@@ -1,0 +1,3 @@
+{"framework": "Cycle.Js", "orgOrPerson": "bahmutov", "repo": "draw-cycle", "desc": "Simple Cycle.js application visualized: streams, events, DOM", "stars": 124},
+{"framework": "Cycle.Js", "orgOrPerson": "nem035", "repo": "cycle-js-fun", "desc": "CycleJSFun", "stars": 1},
+{"framework": "Cycle.Js", "orgOrPerson": "odoe", "repo": "esrijs4-cyclejs", "desc": "Sample app using Cycle.js with ArcGIS JS API", "stars": 3},
